@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request
 from cerberus import Validator
-
 app = Flask(__name__)
 
 # Sample data
